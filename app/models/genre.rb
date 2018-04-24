@@ -12,7 +12,7 @@ class Genre < ActiveRecord::Base
       artist_array << song.artist
     end
     artist_array.size
-      
+
   end
 
   def all_artist_names
