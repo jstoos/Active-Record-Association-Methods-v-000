@@ -20,6 +20,6 @@ class Genre < ActiveRecord::Base
     self.songs.each do |song|
       artist_array << song.artist.name
     end
-    artist_array.size
+    artist_array
   end
 end
